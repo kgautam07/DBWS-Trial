@@ -1,0 +1,34 @@
+CREATE DATABASE Simona;
+
+CREATE TABLE Teams(
+Name VARCHAR(255),
+Abbreviation VARCHAR(255),
+Trophies INT,
+Rank INT
+);DOUBLE
+
+CREATE TABLE Players(
+Name VARCHAR(255),
+Age VARCHAR(255),
+Matches Played INT,
+Role VARCHAR(255),
+Strike Rate DOUBLE
+);
+
+CREATE TABLE Venue(
+Name VARCHAR(255),
+Capacity INT,
+Country VARCHAR(255)
+);
+
+CREATE TABLE Groups(
+Points DOUBLE,
+NRR DOUBLE
+);
+
+CREATE TABLE Finals(
+Winner VARCHAR(255),
+MOT VARCHAR(255),
+Prize DOUBLE,
+Sponsors VARCHAR(255),
+);
